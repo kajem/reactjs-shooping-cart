@@ -7,7 +7,7 @@ import Item6 from '../../images/item6.jpg'
 import Item7 from '../../images/iphone-1.png'
 import Item8 from '../../images/xoami-note-4x.png';
 
-import {ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING, SUB_SHIPPING, ADD_TO_CART_FROM_DETAIL} from '../actions/action-types/cart-actions';
+import {ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING, SUB_SHIPPING} from '../actions/action-types/cart-actions';
 
 
 const initState = {
@@ -163,12 +163,12 @@ const cartReducer= (state = initState, action)=>{
                 total: newTotal
             }
         }
-    }else if(action.type == ADD_SHIPPING){
+    }else if(action.type === ADD_SHIPPING){
         return {
             ...state,
             total: state.total + 50
         }
-    }else if(action.type == SUB_SHIPPING){
+    }else if(action.type === SUB_SHIPPING){
         return {
             ...state,
             total: state.total - 50

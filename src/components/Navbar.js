@@ -9,11 +9,11 @@ class Navbar extends Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-6">
-                            <h1 className="pt-2 pb-1"><Link to="/" className="brand-logo text-white">ReactJs Shopping Cart</Link></h1>
+                            <h1 className="pt-2 pb-1"><Link to="/reactjs-shooping-cart" className="brand-logo text-white">ReactJs Shopping Cart</Link></h1>
                         </div>
                         <div className="col-sm-6 text-right">
                         <ul>
-                            <li><Link to="/">Shop</Link></li>
+                            <li><Link to="/reactjs-shooping-cart">Shop</Link></li>
                             <li><Link to="/cart">My cart (<span>{this.props.addedItems.length}</span>)</Link></li>
                             <li><Link to="/cart"><i className="material-icons">shopping_cart</i></Link></li>
                         </ul>
