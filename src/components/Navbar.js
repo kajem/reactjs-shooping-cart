@@ -14,8 +14,8 @@ class Navbar extends Component{
                         <div className="col-sm-6 text-right">
                         <ul>
                             <li><Link to="/reactjs-shooping-cart">Shop</Link></li>
-                            <li><Link to="/cart">My cart (<span>{this.props.addedItems.length}</span>)</Link></li>
-                            <li><Link to="/cart"><i className="material-icons">shopping_cart</i></Link></li>
+                            <li><Link to="/reactjs-shooping-cart/cart">My cart (<span>{this.props.addedItems.length}</span>)</Link></li>
+                            <li><Link to="/reactjs-shooping-cart/cart"><i className="material-icons">shopping_cart</i></Link></li>
                         </ul>
                         </div>
                     </div>
