@@ -39,7 +39,7 @@ class ProductDetails extends Component{
                         <div><strong>Model : </strong> {product.model}</div>
                         <h3 className="mt-3">Price : Tk. {product.price.toFixed(2)}</h3>
                         <strong>Quantity:</strong> <input className="quantity" id="quantity" type="number" name="quanity" min="1" value={this.state.quantity} onChange={this.handleQuantityChange} />
-                        <span to="/" className="add-to-cart ml-3" onClick={()=>{this.handleAddToCart(product.id, document.getElementById('quantity').value)}} >
+                        <span to="/reactjs-shooping-cart" className="add-to-cart ml-3" onClick={()=>{this.handleAddToCart(product.id, document.getElementById('quantity').value)}} >
                             <img width="40" src="/reactjs-shooping-cart/cart-add-icon.png" alt="Add to cart" />
                         </span>
                         <div className="mt-3"><strong>Short Description : </strong> <br/>{product.desc}</div>
