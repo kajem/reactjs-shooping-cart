@@ -12,9 +12,8 @@ function App() {
               <Navbar/>
               <Switch>
                   <Route exact path="/reactjs-shooping-cart" component={Home}/>
-                  <Route exact path="/" component={Home}/>
-                  <Route path="/cart" component={Cart}/>
-                  <Route path="/product/*" component={ProductDetails}/>
+                  <Route path="/reactjs-shooping-cart/cart" component={Cart}/>
+                  <Route path="/reactjs-shooping-cart/product/*" component={ProductDetails}/>
               </Switch>
             </div>
        </BrowserRouter>
