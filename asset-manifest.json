@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/reactjs-shooping-cart/static/js/main.7c7e6624.chunk.js",
-    "main.js.map": "/reactjs-shooping-cart/static/js/main.7c7e6624.chunk.js.map",
+    "main.js": "/reactjs-shooping-cart/static/js/main.37787287.chunk.js",
+    "main.js.map": "/reactjs-shooping-cart/static/js/main.37787287.chunk.js.map",
     "runtime-main.js": "/reactjs-shooping-cart/static/js/runtime-main.9c536c1c.js",
     "runtime-main.js.map": "/reactjs-shooping-cart/static/js/runtime-main.9c536c1c.js.map",
     "static/js/2.4e098ec8.chunk.js": "/reactjs-shooping-cart/static/js/2.4e098ec8.chunk.js",
     "static/js/2.4e098ec8.chunk.js.map": "/reactjs-shooping-cart/static/js/2.4e098ec8.chunk.js.map",
     "index.html": "/reactjs-shooping-cart/index.html",
-    "precache-manifest.4bb45bdccd4806faa87fc24c2083e370.js": "/reactjs-shooping-cart/precache-manifest.4bb45bdccd4806faa87fc24c2083e370.js",
+    "precache-manifest.90106c39ba3029768e8ad63c560e3085.js": "/reactjs-shooping-cart/precache-manifest.90106c39ba3029768e8ad63c560e3085.js",
     "service-worker.js": "/reactjs-shooping-cart/service-worker.js",
     "static/js/2.4e098ec8.chunk.js.LICENSE.txt": "/reactjs-shooping-cart/static/js/2.4e098ec8.chunk.js.LICENSE.txt",
     "static/media/iphone-1.png": "/reactjs-shooping-cart/static/media/iphone-1.ea8db872.png",
@@ -21,6 +21,6 @@
   "entrypoints": [
     "static/js/runtime-main.9c536c1c.js",
     "static/js/2.4e098ec8.chunk.js",
-    "static/js/main.7c7e6624.chunk.js"
+    "static/js/main.37787287.chunk.js"
   ]
 }
