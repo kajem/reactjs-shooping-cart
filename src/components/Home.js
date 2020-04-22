@@ -28,7 +28,7 @@ class Home extends Component{
                                         <Link to="/" onClick={()=>{this.handleClick(item.id)}} className="add-to-cart"><img src="/reactjs-shooping-cart/cart-add-icon.png" alt="Add to cart" /></Link>
                                     </div>
                                     <div className="col-sm-8 text-right">
-                                        <Link to={`/product/${ item.id }`} className="btn btn-success mt-1">View Details</Link>                                        
+                                        <Link to={`/reactjs-shooping-cart/product/${ item.id }`} className="btn btn-success mt-1">View Details</Link>                                        
                                     </div>
                                 </div>   
                             </div>                 
