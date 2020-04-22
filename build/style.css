@@ -1,0 +1,128 @@
+nav.nav-wrapper{
+    background: #73398d;
+}
+.nav-wrapper ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+.nav-wrapper ul li a{
+    color: #fff;
+}
+.nav-wrapper ul li .material-icons{
+    font-size: 20px;
+}
+a:hover{
+    color: #ccc !important;
+    text-decoration: none;
+}
+.dark-blue{
+    background-color: #563d7c;
+}
+.box{
+    justify-content: space-between;
+}
+.add-to-cart{
+    opacity: .7;
+    cursor: pointer;
+}
+.add-to-cart:hover{
+    opacity: 1;
+}
+.add-to-cart img{
+    width: 45px;
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 257px;
+    float: left;
+    margin-right: 20px;
+}
+.box .card .card-title{
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+.card-image{
+    width: 240px;
+    height: 200px;
+    overflow: hidden;
+}
+.box .card .card-content{
+    padding: 0;
+}
+.cart{
+    margin-top:40px;
+}
+.cart .item-img img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.cart .collection .collection-item{
+    display: flex;
+    padding: 0;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 5px;
+}
+.collection .collection-item img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 25px;
+}
+.cart .collection .collection-item{
+    padding-left: 15px;
+}
+.item-desc{
+    align-self:center;
+} 
+.clearfix{
+    clear: both;
+}
+.home .btn-floating.halfway-fab {
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+}
+.product-details .btn-floating.halfway-fab{
+    position: relative;
+    right: -22px;
+    bottom: 0;
+}
+.product-details img{
+    max-width: 100%;
+}
+input[type=number].quantity{
+    padding-left: 10px;
+    width: 70px;
+}
+.cart i.material-icons {
+    font-size: 22px;
+    color: red;
+}
+.pt-11{
+    padding-top: 11px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mr-100{
+    margin-right: 100px;
+}
+.shipping li{
+    list-style-type: none;
+}
+.box .card .card-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.tab-content{
+    padding-top: 10px;
+}
