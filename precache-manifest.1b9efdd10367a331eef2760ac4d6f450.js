@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83812adfdb06d71bf4a99e1f43ccf99c",
+    "revision": "0052c57e3794c70250503fb2c372b90f",
     "url": "/reactjs-shooping-cart/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-shooping-cart/static/js/2.4e098ec8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5dd070fbbc57dc430c67",
-    "url": "/reactjs-shooping-cart/static/js/main.e984560a.chunk.js"
+    "revision": "972d7f62241f067ad07d",
+    "url": "/reactjs-shooping-cart/static/js/main.8d9cf5c4.chunk.js"
   },
   {
     "revision": "efcceb194422297aeb75",
