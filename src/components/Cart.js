@@ -30,12 +30,12 @@ class Cart extends Component{
                         <div className="row">
                             <div className="col-sm-2">
                                 <div className="item-img">
-                                    <Link to={`/product/${ item.id }`} ><img src={item.img} alt={item.title} /></Link>
+                                    <Link to={`/reactjs-shooping-cart/product/${ item.id }`} ><img src={item.img} alt={item.title} /></Link>
                                 </div>
                             </div>
                             <div className="col-sm-6">
                                 <span className="title">
-                                    <Link to={`/product/${ item.id }`}>{item.title}</Link>
+                                    <Link to={`/reactjs-shooping-cart/product/${ item.id }`}>{item.title}</Link>
                                 </span>
                                 <div className="desc"><strong></strong>{item.desc.substring(0, 50)}...</div>
                                 <div className="model"><strong>Model: </strong>{item.model}</div>
