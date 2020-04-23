@@ -23,6 +23,7 @@ This is a simple e-commerce application built with React and Redux. Its is very 
 ### Package installation
 ```bash
 npm install
+npm install create-react-app
 ```
  ### Create the React App
  Type the following command in the terminal: 
